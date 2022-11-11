@@ -103,6 +103,28 @@ button:hover{
 }
 
 
+.features{
+    margin-top: 100px;
+    margin-bottom: 50px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.features:hover{
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px5px 5px rgba(1, 1, 1, 0.05);
+}
+
+.feature{
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 5px5px 5px rgba(1, 1, 1, 0.05);
+}
+
+
 
 
 
