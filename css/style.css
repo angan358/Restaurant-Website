@@ -102,6 +102,7 @@ button:hover{
     }
 }
 
+/* feature section */
 
 .features{
     margin-top: 100px;
@@ -122,6 +123,25 @@ button:hover{
     padding: 20px;
     transition: 0.2s ease-in-out;
     box-shadow: 5px5px 5px rgba(1, 1, 1, 0.05);
+}
+
+/* divider section */
+.divider{
+    border: 1px solid grey;
+    margin:20px 0;
+}
+
+/* menu section */
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 50px 0;
+    align-items: center;
+}
+
+.menu .tag{
+    align-self: center;
 }
 
 
