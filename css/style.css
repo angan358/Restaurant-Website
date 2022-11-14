@@ -46,6 +46,10 @@ nav {
     align-items: center;
 }
 
+.hero-content p {
+    font-size: 22px;
+}
+
 .hero-content {
     display: flex;
     flex-direction: column;
@@ -56,6 +60,7 @@ nav {
     font-size: 72px;
     font-weight: 400;
     line-height: 1.2;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .tag {
@@ -68,9 +73,10 @@ nav {
 /* button */
 button {
     padding: 10px 15px;
-    border: none;
+    border: 3px solid grey;
     transition: 0.2s ease-in-out;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 button:hover {
@@ -107,6 +113,26 @@ button:hover {
         font-size: 32px;
 
     }
+
+    .features {
+        flex-direction: column;
+    }
+
+    .feature {
+        flex-direction: column;
+    }
+
+    .grid {
+        padding: 10px;
+    }
+
+    .grid-image {
+        border-radius: 0px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+    }
 }
 
 /* feature section */
@@ -119,7 +145,11 @@ button:hover {
     justify-content: center;
 }
 
-.features:hover {
+.feature img {
+    width: 72px;
+}
+
+.feature:hover {
     transition: 0.2s ease-in-out;
     box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
 }
@@ -190,9 +220,54 @@ button:hover {
     grid-area: I7;
 }
 
+/*footer section*/
+footer {
+    background-color: #fff0db;
+}
+
+.footer-container {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-list h3 {
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.link-list ul {
+    list-style: none;
+}
+
+.link-list ul li {
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.news-letter h3 {
+    margin-bottom: 10px;
+    color: grey;
+}
+
+.news-letter input {
+    padding: 8px 40px;
+    margin-bottom: 10px;
+}
+
+/* icon part */
+.icon-container {
+    display: flex;
+    gap: 15px;
+    font-size: 30px;
+}
+
 /*image section for grid*/
 .grid-image {
     border-radius: 10px;
+    transition: 0.2s ease-in-out;
+    width: 100%;
+    height: 100%;
 }
 
 .grid-image:hover {
