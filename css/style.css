@@ -70,6 +70,10 @@ nav {
     align-self: flex-start;
 }
 
+.tag:hover {
+    background-color: #855620;
+}
+
 /* button */
 button {
     padding: 10px 15px;
@@ -177,8 +181,13 @@ button:hover {
     align-items: center;
 }
 
+.menu h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .menu .tag {
     align-self: center;
+    border-radius: 10px;
 }
 
 /* grid part */
